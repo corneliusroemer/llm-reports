@@ -1,0 +1,146 @@
+### 1. Spot-check specific accessions ###
+
+-- ERR14334743 (Borges mpox, expect METAGENOMIC/WGS/RANDOM) --
+run_accession	library_source	library_strategy	library_selection	instrument_platform
+ERR14334743	METAGENOMIC	WGS	RANDOM	ILLUMINA
+
+-- ERR14673163 (Borges mpox, expect METAGENOMIC/WGS/RANDOM) --
+run_accession	library_source	library_strategy	library_selection	instrument_platform
+ERR14673163	METAGENOMIC	WGS	RANDOM	ILLUMINA
+
+-- SRR37517698 (RSV-A amplicon, expect VIRAL RNA/AMPLICON/PCR) --
+run_accession	library_source	library_strategy	library_selection	instrument_platform
+SRR37517698	VIRAL RNA	AMPLICON	PCR	OXFORD_NANOPORE
+
+-- ERR10019299 (Mpox tagged VIRAL RNA via amplicon pipeline) --
+run_accession	library_source	library_strategy	library_selection	instrument_platform
+ERR10019299	VIRAL RNA	AMPLICON	PCR	ILLUMINA
+
+
+### 2. Bulk counts: LIBRARY_SOURCE distribution per virus ###
+
+== Variola (taxid 10255), total runs: count
+54 ==
+  GENOMIC              count
+0
+  VIRAL RNA            count
+0
+  METAGENOMIC          count
+54
+  TRANSCRIPTOMIC       count
+0
+  METATRANSCRIPTOMIC   count
+0
+  SYNTHETIC            count
+0
+  OTHER                count
+0
+
+== HepatitisB (taxid 10407), total runs: count
+3591 ==
+  GENOMIC              count
+2207
+  VIRAL RNA            count
+749
+  METAGENOMIC          count
+108
+  TRANSCRIPTOMIC       count
+184
+  METATRANSCRIPTOMIC   count
+2
+  SYNTHETIC            count
+9
+  OTHER                count
+332
+
+== Zika (taxid 64320), total runs: count
+3865 ==
+  GENOMIC              count
+523
+  VIRAL RNA            count
+2615
+  METAGENOMIC          count
+385
+  TRANSCRIPTOMIC       count
+223
+  METATRANSCRIPTOMIC   count
+1
+  SYNTHETIC            count
+5
+  OTHER                count
+113
+
+== SARS-CoV-2 (taxid 2697049), total runs: count
+7545265 ==
+  GENOMIC              count
+238029
+  VIRAL RNA            count
+7251558
+  METAGENOMIC          count
+6198
+  TRANSCRIPTOMIC       count
+21325
+  METATRANSCRIPTOMIC   count
+19048
+  SYNTHETIC            count
+8578
+  OTHER                count
+529
+
+== Influenza_A (taxid 11320), total runs: count
+49130 ==
+  GENOMIC              count
+1388
+  VIRAL RNA            count
+45074
+  METAGENOMIC          count
+458
+  TRANSCRIPTOMIC       count
+1314
+  METATRANSCRIPTOMIC   count
+110
+  SYNTHETIC            count
+506
+  OTHER                count
+244
+
+== Monkeypox (taxid 10244), total runs: count
+5195 ==
+  GENOMIC              count
+2480
+  VIRAL RNA            count
+580
+  METAGENOMIC          count
+2076
+  TRANSCRIPTOMIC       count
+53
+  METATRANSCRIPTOMIC   count
+0
+  SYNTHETIC            count
+0
+  OTHER                count
+6
+
+### 3. Pull Pathoplexus mpox metadata with raw-read accessions ###
+
+accession	authors	insdcRawReadsAccession
+PP_000SPJP	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SPKM	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SPLK	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SPMH	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SPNF	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SPPD	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SPQB	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SPR9	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SPS7	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SPT5	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SPU3	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SPV1	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SPWZ	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SPXX	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SPYV	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SPZT	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SQ0R	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SQ1P	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SQ2M	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
+PP_000SQ3K	Kinganda Lusamaki, E.; Amuri Aziza, A.; Luakanda Ndelemo, G.; Hasivirwe Vakaniaki, E.; Fernandez Nunez, N.; Pratt, C. B.; Akil Bandali, P.; Makangara Cigolo, J.-C.; Hoff, N. A.; Sabiti Nundu, S.; Mulopo Mukanya, N.; Ngimba, M.; Modrada Madakpa, B.; Diavita, R.; Paku Tshambu, P.; Pukuta Simbu, E.; Merritt, S.; O'Toole, A.; Low, N.; Nkuba Ndaye, A.; Kavunga Membo, H.; Shongo, R.; Malembi, E.; Kalonji, T.; Kacita, C.; Lokilo Lofiko, E.; Kavira Bapitani, S.; Rilia, O.; Muswamba, P.-C.; Muyembe Mawete, F.; Lumembe, R.; Kabamba, G.; Kenye, M.; Citenga, A.; Cikaya, F.; Yungwe, Z.; Matondo, M.; Kasongo, F.; Tshiminyi, P.; Bulabula, J.; Nkawa, F.; Muhindo Milonde, E.; Kavira Kamaliro, A.; Paluku Kalimuli, Z.; Bodisa Matamu, T.; Mubalama Mufungizi, J.; Wiley, M. R.; Devos, E.; Bangwen, E.; Brosius, I.; Parker, E.; Pilarowski, G.; Liesenborghs, L.; Wawina Bokalanga, T.; Vercauteren, K.; Mukadi Bamuleka, D.; Subissi, L.; Muyembe, J.-J.; Kindrachuk, J.; Guichet, E.; Ayouba, A.; Rambaut, A.; Delaporte, E.; Tessema, S. K.; D'Ortenzio, E.; Rimoin, A. W.; Hensley, L. E.; Mbala Kingebeni, P.; Peeters, M.; Ahuka Mundeke, S.	
