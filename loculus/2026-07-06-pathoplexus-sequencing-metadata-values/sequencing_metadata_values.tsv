@@ -1,0 +1,73 @@
+field	value	count	organisms
+sequencingInstrument	Illumina MiSeq	3101	dengue,hmpv,mpox,west-nile
+sequencingInstrument	Illumina NovaSeq	675	west-nile
+sequencingInstrument	Illumina NextSeq 1000 [GENEPIO:0004432]	521	mpox,rsv-a,rsv-b
+sequencingInstrument	unknown	496	dengue
+sequencingInstrument	Nanopore MinION	485	dengue
+sequencingInstrument	Illumina NextSeq	437	dengue,hmpv,mpox,rsv-a,rsv-b
+sequencingInstrument	GridION	353	ebola-bdbv,mpox,west-nile
+sequencingInstrument	Oxford Nanopore GridION Mk1 [OBI:0002751]	339	rsv-a,rsv-b
+sequencingInstrument	Snager 3500	229	mpox
+sequencingInstrument	Illumina Miseq	218	measles,mpox,west-nile
+sequencingInstrument	Oxford Nanopore PromethION	204	rsv-a,rsv-b
+sequencingInstrument	Oxford Nanopore MinION Mk1D	153	measles
+sequencingInstrument	Illumina NextSeq 550	141	mpox
+sequencingInstrument	Illumina MiniSeq [OBI:0003114]	125	rsv-a,rsv-b
+sequencingInstrument	MinIon	119	rsv-a,rsv-b
+sequencingInstrument	NextSeq550	119	rsv-a,rsv-b
+sequencingInstrument	Illumina iSeq	118	mpox,rsv-b,west-nile
+sequencingInstrument	Illumina MiniSeq	88	ebola-bdbv,mpox,west-nile
+sequencingInstrument	Gridion/Nanopore	87	ebola-bdbv
+sequencingInstrument	Illumina	71	measles,mpox,rsv-a,rsv-b
+sequencingInstrument	Gridion	56	ebola-zaire
+sequencingInstrument	Illumina NextSeq 1000	55	dengue,hmpv,mpox,rsv-a,rsv-b,west-nile
+sequencingInstrument	Miniseq	46	mpox
+sequencingInstrument	Oxford Nanopore GridION Mk1	40	mpox
+sequencingInstrument	Ion Torrent	37	west-nile
+sequencingInstrument	MinION Mk1c	27	dengue
+sequencingInstrument	Illumina NovaSeq X	26	mpox
+sequencingInstrument	Illumina iSeq 100	25	andv,mpox
+sequencingInstrument	Oxford Nanopore MinION	22	mpox,rsv-a,rsv-b
+sequencingInstrument	Nextseq1000/2000	20	ebola-bdbv
+sequencingInstrument	Nextseq/Illumina	20	ebola-bdbv
+sequencingInstrument	Illuminna_Nextseq2000	18	ebola-bdbv
+sequencingInstrument	Gridion/nanopore	15	ebola-bdbv,ebola-zaire
+sequencingInstrument	None None	15	rsv-a,rsv-b
+sequencingInstrument	MinION Mk1D	14	andv,ebola-zaire
+sequencingInstrument	Nanopore Minion, Illumina NextSeq 2000 and Element BioSciences Aviti	8	andv
+sequencingInstrument	GridIon MK1C	8	mpox
+sequencingInstrument	illumina	7	andv
+sequencingInstrument	NextSeq 2000	7	mpox
+sequencingInstrument	Oxford Nanopore GridION	6	andv,mpox
+sequencingInstrument	MinION	6	mpox
+sequencingInstrument	OBI:0002750	5	mpox
+sequencingInstrument	Illumina MiSeq RUO, GridION	4	ebola-bdbv
+sequencingInstrument	Illumina MiSeq i100	3	andv
+sequencingInstrument	Illumina NextSeq 2000	3	ebola-bdbv,mpox
+sequencingInstrument	ONT	3	mpox
+sequencingInstrument	This sequence is specific to Illumina generated sequence data, but Oxford Nanopore sequence data was also generated and showed only 2 additional mixed base positions across all segments.	2	andv
+sequencingInstrument	GridION and Miseq	2	ebola-sudan
+sequencingInstrument	GridIon Mk1C	2	mpox
+sequencingInstrument	lllumina MiSeq	2	mpox
+sequencingInstrument	Illumina NextSeq 1002	1	hmpv
+sequencingInstrument	Miseq	1	mpox
+sequencingInstrument	MK1C	1	mpox
+sequencingInstrument	Illumina Iseq100	1	mpox
+sequencingInstrument	Illumina 	1	mpox
+sequencingInstrument	Oxford Nanopore	1	mpox
+sequencingInstrument	Illumina Nextseq	1	mpox
+sequencingInstrument	MinION ONT	1	mpox
+sequencingInstrument	MiSeq i100 Plus	1	mpox
+sequencingInstrument	Illumina NextSeq 551	1	mpox
+sequencingInstrument	Illumina NextSeq 552	1	mpox
+sequencingInstrument	NextSeq 1000	1	mpox
+sequencingAssayType	Whole genome sequencing assay	213	rsv-a,rsv-b
+sequencingAssayType	whole genome sequencing assay [OBI:0002117]	125	rsv-a,rsv-b
+sequencingAssayType	Capture-based sequencing	46	mpox
+sequencingAssayType	Illumina iSeq, paired-end, 2x151	29	mpox
+sequencingAssayType	WGS	19	hmpv
+sequencingAssayType	amplicon sequencing assay	5	mpox
+sequencingAssayType	Oxford nanopore technologies	2	mpox
+sequencingAssayType	NA	1	ebola-sudan
+sequencingAssayType	Metagenomic Sequencing	1	measles
+sequencingLibrarySelection	(field not defined for any organism)	0	

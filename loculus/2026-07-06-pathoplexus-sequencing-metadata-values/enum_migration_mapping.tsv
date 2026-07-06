@@ -1,0 +1,61 @@
+field	raw_value	count	organisms	proposed_value	confidence	note	preserve_detail_to_sequencingProtocol
+sequencingInstrument	Illumina Miseq	218	measles,mpox,west-nile	Illumina MiSeq	auto	case-only diff; process_options lowercases+collapses whitespace, resolves on reprocess without SQL	
+sequencingInstrument	MinIon	119	rsv-a,rsv-b	MinION	auto	case-only diff, resolves on reprocess	
+sequencingInstrument	Illumina	71	measles,mpox,rsv-a,rsv-b	ILLUMINA	auto	case-only diff (matches PLATFORM option ILLUMINA), resolves on reprocess	
+sequencingInstrument	Gridion	56	ebola-zaire	GridION	auto	case-only diff, resolves on reprocess	
+sequencingInstrument	illumina	7	andv	ILLUMINA	auto	case-only diff, resolves on reprocess	
+sequencingInstrument	Illumina 	1	mpox	ILLUMINA	auto	case+trailing-space diff, resolves on reprocess	
+sequencingInstrument	Illumina NextSeq 1000 [GENEPIO:0004432]	521	mpox,rsv-a,rsv-b	NextSeq 1000	high	strip bracketed ontology id suffix	
+sequencingInstrument	Oxford Nanopore GridION Mk1 [OBI:0002751]	339	rsv-a,rsv-b	GridION	high	strip ontology id; no Mk1-specific option exists	Chip: GridION Mk1
+sequencingInstrument	Illumina MiniSeq [OBI:0003114]	125	rsv-a,rsv-b	Illumina MiniSeq	high	strip ontology id suffix	
+sequencingInstrument	unknown	496	dengue	unspecified	high	maps to ENA 'unspecified' placeholder	
+sequencingInstrument	Nanopore MinION	485	dengue	MinION	high	drop vendor prefix, exact model match	
+sequencingInstrument	Illumina NextSeq 550	141	mpox	NextSeq 550	high	drop vendor prefix, exact model match	
+sequencingInstrument	NextSeq550	119	rsv-a,rsv-b	NextSeq 550	high	missing space	
+sequencingInstrument	Illumina NextSeq 1000	55	dengue,hmpv,mpox,rsv-a,rsv-b,west-nile	NextSeq 1000	high	drop vendor prefix, exact model match	
+sequencingInstrument	Miniseq	46	mpox	Illumina MiniSeq	high	case+missing vendor prefix	
+sequencingInstrument	Oxford Nanopore GridION Mk1	40	mpox	GridION	high	no Mk1-specific option exists, drop suffix	Chip: GridION Mk1
+sequencingInstrument	MinION Mk1c	27	dengue	MinION	high	no Mk1c-specific option exists, drop suffix	Chip: MinION Mk1C
+sequencingInstrument	Oxford Nanopore MinION	22	mpox,rsv-a,rsv-b	MinION	high	drop vendor prefix, exact model match	
+sequencingInstrument	Illuminna_Nextseq2000	18	ebola-bdbv	NextSeq 2000	high	typo + missing space	
+sequencingInstrument	Gridion/Nanopore	87	ebola-bdbv	GridION	high	drop vendor suffix	
+sequencingInstrument	Gridion/nanopore	15	ebola-bdbv,ebola-zaire	GridION	high	drop vendor suffix	
+sequencingInstrument	MinION Mk1D	14	andv,ebola-zaire	MinION	high	no Mk1D-specific option exists, drop suffix	Chip: MinION Mk1D
+sequencingInstrument	GridIon MK1C	8	mpox	GridION	high	no Mk1C-specific option exists, drop suffix	Chip: GridION Mk1C
+sequencingInstrument	Oxford Nanopore GridION	6	andv,mpox	GridION	high	drop vendor prefix, exact model match	
+sequencingInstrument	Illumina NextSeq 2000	3	ebola-bdbv,mpox	NextSeq 2000	high	already valid modulo vendor prefix	
+sequencingInstrument	GridIon Mk1C	2	mpox	GridION	high	no Mk1C-specific option exists, drop suffix	Chip: GridION Mk1C
+sequencingInstrument	lllumina MiSeq	2	mpox	Illumina MiSeq	high	typo (extra l)	
+sequencingInstrument	Miseq	1	mpox	Illumina MiSeq	high	case+missing vendor prefix	
+sequencingInstrument	Illumina Iseq100	1	mpox	Illumina iSeq 100	high	case+missing space	
+sequencingInstrument	MinION ONT	1	mpox	MinION	high	drop vendor suffix	
+sequencingInstrument	None None	15	rsv-a,rsv-b	NULL	high	looks like a form-default placeholder bug, not real data - clear to null rather than 'unspecified'	
+sequencingInstrument	Illumina NovaSeq	675	west-nile	ILLUMINA	review	ambiguous model (6000 / X / X Plus); mapping to generic PLATFORM value unless curator can confirm model from metadata/correspondence	Raw submitted value: 'Illumina NovaSeq' (model - 6000/X/X Plus - unconfirmed)
+sequencingInstrument	Illumina NextSeq	437	dengue,hmpv,mpox,rsv-a,rsv-b	ILLUMINA	review	ambiguous NextSeq model (500/550/1000/2000)	Raw submitted value: 'Illumina NextSeq' (model generation unconfirmed)
+sequencingInstrument	Illumina iSeq	118	mpox,rsv-b,west-nile	Illumina iSeq 100	review	only one iSeq model in ENA list, but confirm no iSeq 550i submissions before assuming	Raw submitted value: 'Illumina iSeq' (assumed iSeq 100, ENA's only iSeq option)
+sequencingInstrument	Ion Torrent	37	west-nile	ION_TORRENT	review	ambiguous model, mapped to generic PLATFORM value	Raw submitted value: 'Ion Torrent' (model unconfirmed)
+sequencingInstrument	Nextseq1000/2000	20	ebola-bdbv	ILLUMINA	review	explicitly ambiguous between two models	Raw submitted value: 'Nextseq1000/2000' (submitter indicated either model)
+sequencingInstrument	Nextseq/Illumina	20	ebola-bdbv	ILLUMINA	review	no model specified	Raw submitted value: 'Nextseq/Illumina' (model unconfirmed)
+sequencingInstrument	ONT	3	mpox	OXFORD_NANOPORE	review	ambiguous model, mapped to generic PLATFORM value	Raw submitted value: 'ONT' (model unconfirmed)
+sequencingInstrument	Oxford Nanopore	1	mpox	OXFORD_NANOPORE	review	ambiguous model, mapped to generic PLATFORM value	Raw submitted value: 'Oxford Nanopore' (model unconfirmed)
+sequencingInstrument	Illumina Nextseq	1	mpox	ILLUMINA	review	ambiguous model	Raw submitted value: 'Illumina Nextseq' (model unconfirmed)
+sequencingInstrument	Illumina NextSeq 1002	1	hmpv	NextSeq 1000	review	likely typo for 1000, not a real model - confirm with submitter/group if possible	Raw submitted value: 'Illumina NextSeq 1002' (likely typo, unconfirmed)
+sequencingInstrument	Illumina NextSeq 551	1	mpox	NextSeq 550	review	likely typo for 550	Raw submitted value: 'Illumina NextSeq 551' (likely typo, unconfirmed)
+sequencingInstrument	Illumina NextSeq 552	1	mpox	NextSeq 550	review	likely typo for 550, but could also be 2000 - ambiguous	Raw submitted value: 'Illumina NextSeq 552' (likely typo, unconfirmed)
+sequencingInstrument	MK1C	1	mpox	GridION	review	MK1C chip is used on GridION; no MinION Mk1C ENA option exists either way	Chip: Mk1C (GridION or MinION - unspecified which)
+sequencingInstrument	Snager 3500	229	mpox	AB 3500 Genetic Analyzer	review	typo for 'Sanger'; ENA list has AB 3500 and AB 3500xL Genetic Analyzer - need curator to confirm xL or not	Raw submitted value: 'Snager 3500' (likely Sanger/AB 3500 Genetic Analyzer - unconfirmed)
+sequencingInstrument	OBI:0002750	5	mpox		review	bare ontology ID, needs manual OBI lookup to resolve to an ENA instrument name	Raw submitted value: ontology ID 'OBI:0002750' (unresolved)
+sequencingInstrument	Illumina MiSeq i100	3	andv	unspecified	review	MiSeq i100 is a real newer Illumina instrument not yet in the ENA permitted-values list; use unspecified until ENA list updated, keep original in sequencingProtocol	Raw submitted value: 'Illumina MiSeq i100' (newer model not yet in ENA instrument list)
+sequencingInstrument	MiSeq i100 Plus	1	mpox	unspecified	review	same as above (i100 Plus variant)	Raw submitted value: 'MiSeq i100 Plus' (newer model not yet in ENA instrument list)
+sequencingInstrument	Nanopore Minion, Illumina NextSeq 2000 and Element BioSciences Aviti	8	andv	unspecified	review	multiple instruments used - not representable as single enum, move full text to sequencingProtocol	Multiple instruments used: MinION, Illumina NextSeq 2000, Element BioSciences Aviti
+sequencingInstrument	Illumina MiSeq RUO, GridION	4	ebola-bdbv	unspecified	review	multiple instruments used, move full text to sequencingProtocol	Multiple instruments used: Illumina MiSeq (RUO), GridION
+sequencingInstrument	This sequence is specific to Illumina generated sequence data, but Oxford Nanopore sequence data was also generated and showed only 2 additional mixed base positions across all segments.	2	andv	unspecified	review	free-text note, move to sequencingProtocol	Raw submitted note (verbatim, see original)
+sequencingInstrument	GridION and Miseq	2	ebola-sudan	unspecified	review	multiple instruments used, move full text to sequencingProtocol	Multiple instruments used: GridION, Illumina MiSeq
+sequencingAssayType	Whole genome sequencing assay	213	rsv-a,rsv-b	WGS	high	exact meaning match	
+sequencingAssayType	whole genome sequencing assay [OBI:0002117]	125	rsv-a,rsv-b	WGS	high	strip ontology id suffix, exact meaning match	
+sequencingAssayType	amplicon sequencing assay	5	mpox	AMPLICON	high	exact meaning match	
+sequencingAssayType	NA	1	ebola-sudan	NULL	high	placeholder, clear to null	
+sequencingAssayType	Capture-based sequencing	46	mpox	Targeted-Capture	medium	closest ENA LIBRARY_STRATEGY match	
+sequencingAssayType	Illumina iSeq, paired-end, 2x151	29	mpox	OTHER	review	this describes platform+read length, not assay type; move text to sequencingProtocol, set OTHER (no 'unspecified' option in this enum)	
+sequencingAssayType	Oxford nanopore technologies	2	mpox	OTHER	review	describes platform not assay type; move to sequencingProtocol	
+sequencingAssayType	Metagenomic Sequencing	1	measles	OTHER	review	no metagenomics-specific option in ENA LIBRARY_STRATEGY list; move original value to sequencingProtocol	
